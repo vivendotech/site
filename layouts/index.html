@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+{{partial "headers" . }}
+
+<body>
+
+    {{ partial "navbar" . }}
+
+    <div class="container">
+
+        <div class="row row-offcanvas row-offcanvas-right">
+            <!-- /****** AQUI VOCE POR TUAS REDES SOCIAIS E UM LINK PRA TWTCH -->
+            <div class="col-xs-12 col-sm-11">
+                <p class="pull-right visible-xs">
+
+                    <button type="button" class="btn btn-danger btn-xs" data-toggle="offcanvas">Toggle nav</button> -->
+                </p>
+                <br>
+
+
+                <div class="jumbotron">
+                    <h1>Olá mundo!</h1>
+                    <p>Eu sou o João Marcolan e no site vivendo.tech disponibilizo varias informações sobre programação!
+                        Me siga nas redes sociais (flechas) e veja minhas lives na twitch (clique aqui).</p>
+                    <a class="btn btn-primary twitch" href="https://www.twitch.tv/jmarcolan" role="button">Twitch</a>
+                    <a class="btn btn-info" href="https://www.facebook.com/vivendotech" role="button">Facebook</a>
+                    <a class="btn btn-primary" href="https://twitter.com/jmarcolan" role="button">Twitter</a>
+                    
+
+<!-- 
+                    <button type="button" class="btn btn-info">Facebook</button>
+                    <button type="button" class="btn btn-primary">Instagram</button>
+                    <button type="button" class="btn btn-primary">Twiter</button>
+                    <button type="button" class="btn btn-danger">Youtube</button> -->
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container-fluid">
+                <div class="row">
+                    <p>
+                        <h2>Visite os universos</h2>
+                    </p>
+                    {{range .Site.Sections}}
+                    <div class="col-xs-6">
+                        <h2>{{.Title}}</h2>
+                        <p>{{.Params.descricao_rapida}} </p>
+                        <p><a class="btn btn-default" href="{{.URL }}" role="button">Explore</a></p>
+                    </div>
+                    <!--/.col-xs-6.col-lg-4-->
+
+                    {{end}}
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <h2>Suporte o Vivendo Tech</h2>
+            <div class="container-fluid">
+                <div class="col-xs-6">
+                    twitch
+                </div>
+                <div class="col-xs-6">
+                    twitch
+                </div>
+                <div class="col-xs-6">
+                    twitch
+                </div>
+            </div>
+        </div>
+
+        
+    {{ partial "footer" . }}
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

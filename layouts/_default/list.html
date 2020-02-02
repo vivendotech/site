@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<div class="container">
+    <div class="row">
+        <div>
+            <div class="jumbotron">
+                {{.Content}}
+            </div>
+           
+
+
+        </div>
+        {{ partial "cards" . }}
+    </div>
+
+</div>
+
+
+
+{{ end }}

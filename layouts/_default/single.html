@@ -1,0 +1,50 @@
+
+{{ define "main" }}
+
+<section class="container">
+  <div class="row">
+    <aside class="col-md-3">
+      <aside>
+        <ul>
+
+
+
+        {{ range .Pages }}
+        <nav class="sidebar-nav"></nav>
+          <a href="{{ .URL }}" title="{{ .Title }}"></a>
+        </nav>
+        {{ end}}
+
+
+        {{ partial "nav" . }}
+
+     
+
+
+    </aside>
+      <!-- <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/jquery/">jQuery</a>
+      </nav> -->
+    </aside>
+
+    <article class="col-md-9">
+
+      {{.Content}}
+    
+    </article>
+
+  </div>
+
+  
+ 
+        
+
+</section>
+
+ 
+
+
+{{end}}

@@ -1,0 +1,42 @@
+baseURL = "http://vivendo.tech/"
+languageCode = "pt-br"
+title = "Vivendo tech"
+
+pygmentsCodeFences = true   # Enable triple backtick 'code fence' markdown
+pygmentsUseClasses = false  # Add inline styles, no need to compile extra CSS
+pygmentsStyle = "dracula"
+
+copyright = "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)"
+
+
+[[menu.main]]
+    name = "Dados"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    identifier = "dados"
+    url = "/dados/"
+
+[[menu.main]]
+    name = "Python"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    identifier = "python"
+    url = "/python/"
+
+[[menu.main]]
+    name = "Software"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -90
+    identifier = "software"
+    url = "/software/"
+
+[[menu.main]]
+    name = "Web"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -80
+    identifier = "web"
+    url = "/web/"
+
+[author]
+    name = "João Antônio Marcolan"
+paginate = 12 
