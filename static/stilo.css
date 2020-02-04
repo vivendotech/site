@@ -4,7 +4,8 @@
 */
 
 .header-image{
-    background-image:url(/header.jpg);
+    background-image:url(/site_headrr.png);
+    /* background-size: auto; */
     background-position:center;
     height:30rem;
     display:flex;

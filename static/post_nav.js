@@ -24,7 +24,7 @@ $(document).ready(function(){
         url: "/post.json", 
         success: function(result){
 
-            let re = new RegExp("(/dados/)|(/web/)|(/python/)|(/software/)")
+            let re = new RegExp("(/dados/)|(/web/)|(/linguagens/)|(/software/)")
             let url_page = document.URL
             let result_split = url_page.split(re)
             let r_match = url_page.match(re)

@@ -17,11 +17,11 @@ copyright = "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
     url = "/dados/"
 
 [[menu.main]]
-    name = "Python"
+    name = "Linguagens"
     pre = "<i class='fa fa-road'></i>"
     weight = -100
-    identifier = "python"
-    url = "/python/"
+    identifier = "linguagens"
+    url = "/linguagens/"
 
 [[menu.main]]
     name = "Software"
@@ -40,3 +40,4 @@ copyright = "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
 [author]
     name = "João Antônio Marcolan"
 paginate = 12 
+

@@ -6,5 +6,14 @@
                 {"title":"Segundo post","url":"/dados/numpy/b/"},
                 {"title":"Terceiro post","url":"/dados/numpy/b/"}
             ]
-        }
+        },
+
+    "intro_python":{
+        "nome":"",
+        "posts":[
+            {"title":"Primeiro post","url":"/linguagens/intro_python/a/"},
+            {"title":"Segundo post","url":"/linguagens/intro_python/b/"},
+            {"title":"Terceiro post","url":"/linguagens/intro_python/b/"}
+        ]
+    }
 }

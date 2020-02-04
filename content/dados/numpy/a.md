@@ -3,7 +3,7 @@ title: "A"
 date: 2020-01-31T00:14:11-03:00
 draft: true
 descricao_rapida: "Descricao que vai no card"
-
+repo: "desafio_certi"
 ---
 
 {{< promessa >}}
@@ -58,4 +58,3 @@ https://learn.netlify.com/en/shortcodes/mermaid/
 
 
 
-{{< github repo="desafio_certi" >}}

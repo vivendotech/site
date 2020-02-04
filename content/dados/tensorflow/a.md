@@ -2,7 +2,7 @@
 title: "A"
 date: 2020-01-31T00:14:11-03:00
 draft: true
-myVar: "oi mundo"
+repo: "desafio_certi"
 ---
 
 asdsda
@@ -44,4 +44,3 @@ https://learn.netlify.com/en/shortcodes/mermaid/
 
 
 
-{{< github repo="desafio_certi" >}}

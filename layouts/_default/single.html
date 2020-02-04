@@ -4,24 +4,32 @@
 <section class="container">
   <div class="row">
     <aside class="col-md-3">
-      <aside>
-        <ul>
+
+        <nav class="container">
+          <div class="row">
+            <h2> Conteúdo do post</h2>
+            {{.TableOfContents}}
+          </div>
 
 
+          <div class="row">
+            <h2>Paises desse mundo</h2>
+            {{ partial "nav" . }}
+          </div>
 
-        {{ range .Pages }}
-        <nav class="sidebar-nav"></nav>
-          <a href="{{ .URL }}" title="{{ .Title }}"></a>
+          <div class="row">
+            <h2>Github</h2>
+            {{ partial "github" . }}
+          </div>
+
+
+          
         </nav>
-        {{ end}}
-
-
-        {{ partial "nav" . }}
+        
 
      
 
 
-    </aside>
       <!-- <nav>
         <a href="/html/">HTML</a> |
         <a href="/css/">CSS</a> |
