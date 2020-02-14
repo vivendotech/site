@@ -1,3 +1,7 @@
+# Introdução
+Conteúdo educativo sobre linguagens de programação, analise de dados, desenvolvimento web e desenvolvimento de software gerado na [live do professor Marcolan](www.twitch.tv/jmarcolan).
+
+
 # Licença do conteudo
 
 Todo o conteúdo do site, aulas, vídeos, icones estão licençiados [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
