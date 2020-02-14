@@ -38,14 +38,15 @@ body {
 footer {
     /* padding: 30px 0;
     width: 100%; */
-    position: absolute;
+    /* position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
+    padding: 1rem; */
     background-color: #efefef;
     text-align: center;
 }
+
 .twitch,
 .twitch:hover,
 .twitch:active,
