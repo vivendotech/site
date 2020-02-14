@@ -5,7 +5,7 @@ title = "Vivendo tech"
 pygmentsCodeFences = true   # Enable triple backtick 'code fence' markdown
 pygmentsUseClasses = false  # Add inline styles, no need to compile extra CSS
 pygmentsStyle = "dracula"
-
+googleAnalytics = "UA-90999033-3"
 copyright = "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)"
 
 
