@@ -1,5 +1,5 @@
 # Introdução
-Conteúdo educativo sobre linguagens de programação, analise de dados, desenvolvimento web e desenvolvimento de software gerado na [live do professor Marcolan](www.twitch.tv/jmarcolan).
+Conteúdo educativo sobre linguagens de programação, analise de dados, desenvolvimento web e desenvolvimento de software gerado na [live do professor Marcolan](https://www.twitch.tv/jmarcolan).
 
 
 # Licença do conteudo
