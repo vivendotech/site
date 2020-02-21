@@ -2,18 +2,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{.Title}}</title>
+
+    <!-- Marcação do Open Graph Para redes sociais -->
+    <!-- URL do seu site -->
+    <meta property="og:url" content="https://portfoliodiegofreitas.netlify.com">
+
+    <!-- Aqui pode deixar website mesmo -->
+    <meta property="og:type" content="website">
+
+    <!-- Aqui é o título do site -->
+    <meta property="og:title" content="">
+
+    <!-- Aqui é a descrição do site -->
+    <meta property="og:description" content="">
+
+    <!-- Aqui é a imagem do site que aparecerá, tem que ser uma URL da imagem hospedada -->
+    <meta property="og:image" content="">
+
+    <!-- Aqui é a descrição do site que aparecerá nas pesquisas do google -->
+    <meta name="description" content="">
 
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    
+
 
     <link rel="stylesheet" type="text/css" href="/stilo.css" media="screen" />
-    <script src="/navbar.js"></script>  
-    {{ template "_internal/google_analytics.html" . }} 
+    <script src="/navbar.js"></script>
+    {{ template "_internal/google_analytics.html" . }}
 
-    <script data-ad-client="ca-pub-5400208836705527" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script data-ad-client="ca-pub-5400208836705527" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <title>{{.Title}}</title>
 
 </head>
-

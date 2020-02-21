@@ -1,17 +1,12 @@
-
-
-
 <div class="container-fluid">
-<div class="row">
-    {{ range .Pages }}
-    <div class="col-xs-6 col-lg-4">
-        <h2><a href="{{.URL }}"></a>{{.Title }} </h2>
-        <p>{{.Params.descricao_rapida }} </p>
-        <p><a class="btn btn-default" href="{{.URL }}" role="button">Explore</a></p>
-    </div><!--/.col-xs-6.col-lg-4-->
-          
-    {{end}}
+    <div class="row">
+        {{ range .Pages }}
+        <div class="col-xs-6 col-lg-4">
+            <h2><a href="{{.URL }}"></a>{{.Title }} </h2>
+            <p>{{.Params.descricao_rapida }} </p>
+            <p><a class="btn btn-default" href="{{.URL }}" role="button">Explore</a></p>
+        </div>
+        <!--/.col-xs-6.col-lg-4-->
 
-
-
-</div>
+        {{end}}
+    </div>
