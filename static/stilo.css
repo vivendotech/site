@@ -5,6 +5,7 @@
 
 .header-image{
     background-image:url(/site_headrr.png);
+    background-repeat: no-repeat;
     /* background-size: auto; */
     background-position:center;
     height:30rem;
