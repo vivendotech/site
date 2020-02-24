@@ -2,7 +2,7 @@
 title: "Metodos mais usados no panda"
 date: 2020-01-31T00:14:11-03:00
 draft: true
-descricao_rapida: "Pandas, manipule tabelas de dados!"
+descricao: "Pandas, manipule tabelas de dados!"
 ---
 
 # Universo da análise dos pandas

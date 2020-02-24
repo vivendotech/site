@@ -5,7 +5,7 @@ draft: false
 
 slug: python-como-funcoes
 
-descricao_rapida: "Reservamos uma palavra e ela faz algo!"
+descricao: "Reservamos uma palavra e ela faz algo!"
 repo: "desafio_certi"
 ---
 

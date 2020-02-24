@@ -2,7 +2,7 @@
 title: "B"
 date: 2020-01-31T00:14:11-03:00
 draft: true
-descricao_rapida: "Descricao que vai no card"
+descricao: "Descricao que vai no card"
 
 ---
 

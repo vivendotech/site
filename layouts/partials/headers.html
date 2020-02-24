@@ -5,23 +5,39 @@
 
     <!-- Marcação do Open Graph Para redes sociais -->
     <!-- URL do seu site -->
-    <meta property="og:url" content="https://portfoliodiegofreitas.netlify.com">
-
-    <!-- Aqui pode deixar website mesmo -->
-    <meta property="og:type" content="website">
-
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="http://vivendo.tech">
+    <meta property="article:publisher" content="https://vivendo.tech">
     <!-- Aqui é o título do site -->
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Vivendo a tecnologia">
 
-    <!-- Aqui é a descrição do site -->
-    <meta property="og:description" content="">
+    <!-- caso for um post -->
+    {{ if (isset .Params "article") }}
+    <meta property="og:type" content="article">
+    <meta property="article:author" content="João Antonio Marcolan">
+    <meta property="article:section" content="{{.Params.section}}">
 
-    <!-- Aqui é a imagem do site que aparecerá, tem que ser uma URL da imagem hospedada -->
-    <meta property="og:image" content="">
+    {{ $var := .Params.tags_seo }}
+    <meta property="article:tag" content="{{$var}}">
+
+    
+        <!-- Aqui é a imagem do site que aparecerá, tem que ser uma URL da imagem hospedada -->
+    <meta property="og:image" content="{{.Params.img_post}}">
 
     <!-- Aqui é a descrição do site que aparecerá nas pesquisas do google -->
-    <meta name="description" content="">
+    <meta name="description" content="{{.Params.descricao}}">
+    <meta property="og:description" content="{{.Params.descricao}}">
+    {{else}}
+        <!-- Aqui é a descrição do site -->
+        <meta property="og:description" content="Tutoriais sobre os mais diversos temas da Ciencia da Computação">
+    
+    {{ end }}
 
+
+
+
+
+    <!-- Aqui pode deixar website mesmo -->
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>

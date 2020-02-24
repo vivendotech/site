@@ -2,9 +2,19 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-descricao_rapida: "Descricao que vai no card"
-repo: "Repositorio_das_aulas"
+
+
+article: true
+section: "teoria" # teoria, desafio, datasheet
+descricao: "Hello World"
+repo: "desafio_certi"
+categories: ["categoria"]
+tags: ["a","b","c"]
+tags_seo: "a, b, c"
+img_post: "/stes.jpg"
 ---
+
+
 
 ## Promessa inicial
 

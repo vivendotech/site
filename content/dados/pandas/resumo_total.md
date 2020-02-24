@@ -3,7 +3,7 @@ title: "Links uteis"
 date: 2020-01-31T00:14:11-03:00
 draft: false
 
-descricao_rapida: "Links Uteis"
+descricao: "Links Uteis"
 repo: "desafio_certi"
 ---
 

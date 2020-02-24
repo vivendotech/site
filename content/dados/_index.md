@@ -2,7 +2,7 @@
 title: "Universo da analise de dados"
 date: 2020-01-31T00:14:11-03:00
 draft: true
-descricao_rapida: "Tenho mil dados e agora!"
+descricao: "Tenho mil dados e agora!"
 ---
 
 # Universo da análise de dados
