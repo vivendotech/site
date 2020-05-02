@@ -1,6 +1,6 @@
 <div class="container-fluid">
     <div class="row">
-        {{ range .Pages }}
+        {{ range (.Pages.ByParam "ordem") }}
         <div class="col-xs-6 col-lg-4">
             <h2><a href="{{.URL }}"></a>{{.Title }} </h2>
             <p>{{.Params.descricao }} </p>
