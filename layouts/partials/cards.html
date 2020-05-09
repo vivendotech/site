@@ -2,11 +2,18 @@
     <div class="row">
         {{ range (.Pages.ByParam "ordem") }}
         <div class="col-xs-6 col-lg-4">
-            <h2><a href="{{.URL }}"></a>{{.Title }} </h2>
-            <p>{{.Params.descricao }} </p>
-            <p><a class="btn btn-default" href="{{.URL }}" role="button">Explore</a></p>
+            <div class="card">
+                <div class="card-header">
+                    <h2><a href="{{.URL }}"></a>{{.Title }} </h2>
+                </div>
+                <div class="card-body">
+                    <p>{{.Params.descricao }} </p>
+                </div>
+                <div class="card-footer">
+                    <p><a class="btn btn-default" href="{{.URL }}" role="button">Explore</a></p>
+                </div>
+            </div>
         </div>
         <!--/.col-xs-6.col-lg-4-->
-
         {{end}}
     </div>
