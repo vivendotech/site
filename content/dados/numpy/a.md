@@ -6,12 +6,7 @@ descricao: "Descricao que vai no card"
 repo: "desafio_certi"
 ---
 
-{{< promessa >}}
-   <h2> Funcoes </h2>
-  
-  <p> Nesse post veremos como construir uma função: </p>
 
-{{< /promessa >}}
 
 # titulo
 asdsda
@@ -29,12 +24,12 @@ https://xyproto.github.io/splash/docs/all.html
 ```js
 console.log("oi mundo")
 ```
-{{< highlight html >}}
 
-<title>Example HTML5 Document</title>
-Test
-
-{{< /highlight >}}
+{{< highlight js >}}
+console.log('hello');
+alert('hello 1');
+alert('hello 2');
+{{< / highlight >}}
 
 to usando como base
 

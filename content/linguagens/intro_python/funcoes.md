@@ -10,12 +10,11 @@ repo: "desafio_certi"
 ---
 
 
-{{< promessa >}}
-   <h2> Funções </h2>
-  
-  <p> As funções servem para reaproveitar uma série de linhas de códigos. De um forma masi refiniada serve para juntar uma série de ações dentro de um verbo. </p>
 
-{{< /promessa >}}
+<h2> Funções </h2>  
+<p> As funções servem para reaproveitar uma série de linhas de códigos. De um forma masi refiniada serve para juntar uma série de ações dentro de um verbo. </p>
+
+
 
 
 

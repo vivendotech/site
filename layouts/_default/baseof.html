@@ -3,18 +3,15 @@
 {{ partial "headers" . }}
 <body>
     {{ partial "navbar" . }}
+
     {{ block "main" . }}
 
 
     {{ end }}
 
-    <div class="container">
-        <div class="row">
-            {{ partial "footer" . }}
-        </div>
-        
-    </div>
-    
+    {{ partial "footer" . }}
+    <script>
+        new ClipboardJS('.btn');
+    </script>
 </body>
-
 </html>
