@@ -1,61 +1,20 @@
-
 {{ define "main" }}
-
-<section class="container">
-  <div class="row">
-    <aside class="col-md-3">
-
-        <nav >
-          <div class="row">
-            <h2> Conteúdo do post</h2>
-
-              {{.TableOfContents}}
-      
-          </div>
-
-
-          <div class="row">
-            <h2>Tutoriais desse módulo</h2>
-            {{ partial "nav" . }}
-          </div>
-
-          <div class="row">
-            <h2>Github</h2>
-            {{ partial "github" . }}
-          </div>
-
-
-          
-        </nav>
-
-        <!--CODIGO CORRIGIDO-->
- 
-
-
-
-      <!-- <nav>
-        <a href="/html/">HTML</a> |
-        <a href="/css/">CSS</a> |
-        <a href="/js/">JavaScript</a> |
-        <a href="/jquery/">jQuery</a>
-      </nav> -->
-    </aside>
-
-    <article class="col-md-9">
-
-      {{.Content}}
-    
-    </article>
-
+<main class="container-lg border-top">
+  <div class="pt-3">
+    <div class="row justify-content">
+      <div class="col col-lg-9">
+        {{.Content}}
+      </div>
+      <div class="col-md-auto">
+        <ul class="navbar-nav ml-auto flex-row toc-top">
+          <li class="nav-item active"><a class="nav-link" href="https://github.com/{{.Params.repo }}"><i class="fab fa-github"></i></a></li>
+          <li class="nav-item active"><a class="btn" data-clipboard-text="{{.Permalink}}"><i class="fas fa-link"></i></a></li>
+        </ul>
+        <div class="toc">
+          {{.TableOfContents}}
+        </div>
+      </div>
+    </div>
   </div>
-
-  
- 
-        
-
-</section>
-
- 
-
-
+</main>
 {{end}}

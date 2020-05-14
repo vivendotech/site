@@ -1,43 +1,48 @@
 baseURL = "http://vivendo.tech/"
 languageCode = "pt-br"
 title = "Vivendo tech"
+defaultContentLanguage = "pt-BR"
 
 pygmentsCodeFences = true   # Enable triple backtick 'code fence' markdown
 pygmentsUseClasses = false  # Add inline styles, no need to compile extra CSS
+
 pygmentsStyle = "dracula"
 googleAnalytics = "UA-90999033-3"
 copyright = "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)"
 
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    tabWidth = 2
 
 [[menu.main]]
     name = "Dados"
-    pre = "<i class='fa fa-heart'></i>"
-    weight = -110
     identifier = "dados"
     url = "/dados/"
 
 [[menu.main]]
     name = "Linguagens"
-    pre = "<i class='fa fa-road'></i>"
-    weight = -100
     identifier = "linguagens"
     url = "/linguagens/"
 
 [[menu.main]]
     name = "Software"
-    pre = "<i class='fa fa-heart'></i>"
-    weight = -90
     identifier = "software"
     url = "/software/"
 
 [[menu.main]]
     name = "Web"
-    pre = "<i class='fa fa-heart'></i>"
-    weight = -80
     identifier = "web"
-    url = "/web/"
+    url = "/web/"    
 
 [author]
     name = "João Antônio Marcolan"
+
 paginate = 12 
 

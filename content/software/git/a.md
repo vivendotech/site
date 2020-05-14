@@ -6,12 +6,9 @@ descricao: "Descricao que vai no card"
 
 ---
 
-{{< promessa >}}
-   <h2> Funcoes </h2>
-  
-  <p> Nesse post veremos como construir uma função: </p>
 
-{{< /promessa >}}
+<h2> Funcoes </h2>
+<p> Nesse post veremos como construir uma função:</p>
 
 # titulo
 asdsda
@@ -30,10 +27,8 @@ https://xyproto.github.io/splash/docs/all.html
 console.log("oi mundo")
 ```
 {{< highlight html >}}
-
 <title>Example HTML5 Document</title>
 Test
-
 {{< /highlight >}}
 
 to usando como base

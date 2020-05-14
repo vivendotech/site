@@ -2,6 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
+artigo: false
 
 article: true
 section: "teoria" # teoria, desafio, datasheet

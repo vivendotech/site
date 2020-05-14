@@ -1,0 +1,9 @@
+<nav class="container-lg navbar navbar-expand-sm navbar-light">
+    <div class="nav-scroll mx-auto">
+        <ul class="navbar-nav flex-row">
+            {{ range .Site.Menus.main }}
+                <li class="nav-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+</nav>

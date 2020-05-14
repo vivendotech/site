@@ -1,20 +1,10 @@
 {{ define "main" }}
-
-<div class="container">
-    <div class="row">
-        <div>
-            <div class="jumbotron">
-                {{.Content}}
-            </div>
-           
-
-
-        </div>
+<main class="container-lg border-top">
+    <div class="topicos-content pt-3">
+        {{.Content}}
+    </div>
+    <div class="pb-3">
         {{ partial "cards" . }}
     </div>
-
-</div>
-
-
-
+</main>
 {{ end }}
