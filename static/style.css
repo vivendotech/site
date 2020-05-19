@@ -78,7 +78,7 @@ code {
     margin-bottom: 15px;
     border-bottom: #aaaaaa 2px solid;
     border-radius: 0;
-    min-height: 200px;
+    min-height: 100%;
 }
 
 .card-lista .col-sm-4 {
