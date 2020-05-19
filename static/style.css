@@ -78,6 +78,12 @@ code {
     margin-bottom: 15px;
     border-bottom: #aaaaaa 2px solid;
     border-radius: 0;
+    min-height: 200px;
+}
+
+.card-lista .col-sm-4 {
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .card-lista .card .card-body {
