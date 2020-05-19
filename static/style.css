@@ -81,9 +81,9 @@ code {
     min-height: 100%;
 }
 
-.card-lista .col-sm-4 {
-    padding-right: 15px;
-    padding-left: 15px;
+.card-lista .col {
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .card-lista .card .card-body {
