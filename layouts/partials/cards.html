@@ -1,20 +1,21 @@
-<div class="card-lista">
-    {{ range first 3 (.Pages.ByParam "ordem") }}
-    <div class="card card-link">
-        <a class="card-body" href="{{ .Permalink }}">
-            <h5 class="card-title">{{ .Title | safeHTML | truncate 30 }}</h5>
-            <p class="card-text">{{.Params.descricao }}</p>
-        </a>
-        <div class="card-footer d-flex bd-highlight">
-            <a class="flex-grow-1 bd-highlight" href="{{ .Permalink }}">Explorar</a>
-            <!-- <div class="p-2 bd-highligh">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div> -->
-            {{ if gt (.Pages.ByParam "article") false }}
-                <div class="bd-highligh">{{ lang.NumFmt 0 (len .Pages) "- . ," }} • <i class="fas fa-newspaper"></i></div>
-            {{ else }}
-                <div class="bd-highligh">{{ index $.Site.Data.mois (printf "%d" .Lastmod.Month) }} {{ .Date.Day }}, {{ .Date.Year }}</div>
-            {{ end }}
+<div class="row card-lista row-cols-1 row-cols-sm-2 row-cols-md-3">
+    {{ range .Pages.ByParam "ordem" }}
+    <div class="col">
+        <div class="card card-link">
+            <a class="card-body" href="{{ .Permalink }}">
+                <h5 class="card-title">{{ .Title | safeHTML | truncate 30 }}</h5>
+                <p class="card-text">{{.Params.descricao }}</p>
+            </a>
+            <div class="card-footer d-flex bd-highlight">
+                <a class="flex-grow-1 bd-highlight" href="{{ .Permalink }}">Explorar</a>
+                <!-- <div class="p-2 bd-highligh">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div> -->
+                {{ if gt (.Pages.ByParam "article") false }}
+                    <div class="bd-highligh">{{ lang.NumFmt 0 (len .Pages) "- . ," }} • <i class="fas fa-newspaper"></i></div>
+                {{ else }}
+                    <div class="bd-highligh">{{ index $.Site.Data.mois (printf "%d" .Lastmod.Month) }} {{ .Date.Day }}, {{ .Date.Year }}</div>
+                {{ end }}
+            </div>
         </div>
     </div>
     {{end}}
 </div>
-
